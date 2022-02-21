@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <app-task-list [tasks]="tasks"></app-task-list>
+      <app-task-add (addEventEmitter)="addEventEmitter($event)"></app-task-add>
+    </div>
+  </div>
+</div>

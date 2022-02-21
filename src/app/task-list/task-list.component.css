@@ -1,0 +1,22 @@
+.task-container{
+    background-color: red;
+    margin-top: 1rem;
+    
+}
+.task-item{
+    background-color:lightgrey;
+}
+.list-item-container{
+    display: flex;
+}
+.task-item-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
